@@ -1,0 +1,5 @@
+OBJS = MovieList.o Movie.o NameList.o Name.o Iterator.o
+CC = g++
+DEBUG = -g
+
+Mipssim : $(OBJS)
